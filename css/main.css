@@ -15,9 +15,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
-img{
-    width: 100%;
-}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -99,12 +97,25 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* Make the image fully responsive */
-  .carousel-inner img {
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed');
+
+.carousel-inner img {
       width: 100%;
       height: 100%;
   }
 
+img{
+    width: 100%;
+}
 
+
+p{
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+}
 
 
 
